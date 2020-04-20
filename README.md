@@ -12,7 +12,7 @@ as 42 code').
 
 ## Language
 
-Source code is a number. That numbers base-9 digits are taken, in order from least to most significant, as instructions of a slightly modified brainfuck as follows:
+Source code is a number. That number's base-9 digits are taken, in order from least to most significant, as instructions of a slightly modified brainfuck as follows:
 | Base-9 Digit | Instruction |
 |-------|-------------|
 | 0 | `+` |
@@ -37,7 +37,7 @@ In base 9, 42 is written '46'. Those digits from least to most significant, '64'
 
 ## Restrictions and Specifics
 
-Because the number 1 is equal to the number 01, you can't use a `+` as the last instruction of a 42 program. This makes no difference to its power, since you
+Because the number 1 is equal to the number 01, you can't use `+` as the last instruction(s) of a 42 program. This makes no difference to its power, since you
 can use `++-` (represented by a number starting '100...' in base 9) instead.
 
 This implementation allows cell values to be any integer. You can execute a negative number, the result is the same as for its absolute value.
