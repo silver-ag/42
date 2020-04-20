@@ -1,7 +1,8 @@
 # 42
 
 [Salpynx](https://esolangs.org/wiki/User:Salpynx) on esolangs.org has a language family called [42](https://esolangs.org/wiki/42), which is the set of languages
-satisying two conditions:
+satisying three conditions:
+* turing-completeness
 * source code consists of a single number (whose representation is not relevant, ie. they use a gödel numbering of some kind)
 * the number 42 is a self-interpreter
 
